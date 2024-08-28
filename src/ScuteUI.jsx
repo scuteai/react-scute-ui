@@ -3,7 +3,7 @@ import { useScuteClient, useAuth } from "@scute/react";
 import { Profile } from "@scute/ui-react";
 
 export const AuthenticatedView = () => {
-  const { session, user, signOut } = useAuth();
+  const { session /*, user, signOut */ } = useAuth();
   const scute = useScuteClient();
 
   if (session.status === "loading") {
