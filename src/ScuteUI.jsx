@@ -31,7 +31,7 @@ export const ScuteUI = () => {
         privacyPolicy: "https://example.com/privacy",
         termsOfService: "https://example.com/terms",
       }}
-      logoUrl="https://example.com/logo.png"
+      logoUrl="./favicon.ico"
     />
   );
 };
